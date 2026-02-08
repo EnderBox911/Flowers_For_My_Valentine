@@ -45,13 +45,7 @@ display: flex;
   animation: valentine-haze 18s ease-in-out infinite;
   pointer-events:none;
 }
-.night::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.55) 100%);
-  pointer-events:none;
-}
+
 @keyframes valentine-haze{
   0%,100%{ transform: translate3d(0,0,0) scale(1); }
   50%{ transform: translate3d(0,-1.5vmin,0) scale(1.03); }
